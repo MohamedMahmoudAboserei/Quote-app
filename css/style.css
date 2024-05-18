@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.card-bg {
+    background-color: rgb(9, 9, 41);
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-bg::before {
+    content: "";
+    width: 200px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -40px;
+}
+
+.card-bg::after {
+    content: "";
+    width: 200px;
+    height: 10px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 1160px;
+}
+
+.line {
+    width: 200px;
+    height: 10px;
+    background-color: #000000;
+    transform: rotate(45deg);
+    position: absolute;
+    
+    right: 260px;
+}
+
+.card-bg h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+}
+
+.card-bg p {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.card-bg button {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.card-bg .quote {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.card-bg .quote .img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+} 
+
+.card-bg .quote .img img {
+    width: 100%;
+}
+
+.card-bg .quote .quote-contact {
+    width: 50%;
+    align-self: center;
+}
+
+.card-bg .quote .quote-contact h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.card-bg .quote .quote-contact h3 i {
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+}
+
+.card-bg .quote .quote-contact h4 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+}
+
+
+
+

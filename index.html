@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/quotes.png" rel="icon" type="image/png">
+    <title>Quote App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="card-bg mt-5 p-5 rounded-4 shadow position-relative">
+                <div class="line1"></div>
+                <h1 class="p-2">
+                    Quote of the Day
+                </h1>
+                <P class="p-2">
+                    Press the button below to receive a random quote!
+                </P>
+                <button class="p-2 m-2 btn btn-outline-light border-3" onclick="newquote()">Add New Quote</button>
+                <div id="quote" class="quote m-5"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
